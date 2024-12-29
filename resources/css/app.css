@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-items a {
+    @apply text-[18px] hover:text-white/80;
+}
+
+
+body.chat nav a {
+    color: #000;
+
+}
